@@ -10,7 +10,6 @@ const links = [
   { label: 'Projects', to: '/projects', dropdown: true },
   { label: 'Events', to: '/events' },
   { label: 'Governance', to: '/governance' },
-  { label: 'Gallery', to: '/gallery' },
   { label: 'Contact Us', to: '/contact' },
 ]
 
