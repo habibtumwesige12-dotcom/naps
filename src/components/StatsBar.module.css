@@ -18,7 +18,10 @@
 
 .item i { font-size: 1.6rem; color: var(--gold); flex-shrink: 0; }
 .item strong { display: block; font-size: 1rem; font-weight: 700; }
-.item span { font-size: 0.7rem; color: #8fa3c8; text-transform: uppercase; letter-spacing: .5px; }
+.item span { font-size: 0.7rem; color: #8fa3c8; text-transform: uppercase; }
+@media (max-width: 540px) {
+  .item span { letter-spacing: 0; }
+}
 
 @media (max-width: 900px) {
   .bar { grid-template-columns: repeat(3, 1fr); }

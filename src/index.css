@@ -20,6 +20,13 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+@media (max-width: 768px) {
+  body { word-spacing: normal; }
+  * { word-break: break-word; }
 }
 
 #root {

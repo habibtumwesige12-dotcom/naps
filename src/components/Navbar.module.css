@@ -37,7 +37,6 @@
   font-size: 0.82rem;
   font-weight: 500;
   color: var(--navy);
-  white-space: nowrap;
   transition: color .2s;
   display: flex; align-items: center; gap: 3px;
 }
@@ -52,9 +51,11 @@
   border-radius: 4px;
   font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: .5px;
-  white-space: nowrap;
   transition: background .2s;
+}
+
+@media (max-width: 960px) {
+  .links a, .btnJoin { white-space: normal; letter-spacing: 0; }
 }
 .btnJoin:hover { background: var(--gold-light); }
 
